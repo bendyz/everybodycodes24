@@ -6,7 +6,7 @@ fn main() {
      let out1 = "";
     
 
-     println!("EC Qx PX: {}", out1);
+     println!("EC 0x pX: {}", out1);
 
 
 }

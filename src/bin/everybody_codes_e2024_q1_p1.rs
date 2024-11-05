@@ -6,9 +6,6 @@ fn main() {
      let out1: i32= input.chars().into_iter().map(|x| if x=='B'{1} else if x=='C' {3} else {0}).sum();
     
 
-     println!("EC 01a: {}", out1);
+     println!("EC 01 p1: {}", out1);
 
-     //part2
-     let out2 = "";
-     println!("EC 01b: {}", out2);
 }

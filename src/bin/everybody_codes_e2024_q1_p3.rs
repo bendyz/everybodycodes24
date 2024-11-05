@@ -1,6 +1,5 @@
 mod tools;
 use std::str;
-use itertools::Itertools;
 
 
 fn main() {
@@ -14,7 +13,7 @@ fn main() {
 
      let out1: u32 = subs.into_iter().map(|x|  points(x.to_string())).sum();
 
-     println!("EC Q1 P3: {}", out1);
+     println!("EC 01 P3: {}", out1);
 
 }
 
