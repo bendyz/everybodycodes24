@@ -14,7 +14,7 @@ fn main() {
 
      let out1: u32 = subs.into_iter().map(|x|  points(x.to_string())).sum();
 
-     println!("EC 01 p2: {}", out1);
+     println!("EC Q1 P3: {}", out1);
 
 }
 
