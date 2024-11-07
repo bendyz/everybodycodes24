@@ -22,17 +22,6 @@ fn main() {
           matrix.up(i as i16);
      }
 
-
-     
-     //dbg!(matrix);\
-
-
-     // for y in 0..matrix.my{
-     //      for x in 0..matrix.mx{
-     //           print!("{}" ,matrix.get(x,y))
-     //      }
-     //      println!("");
-     // }
      println!("{}", matrix.get_sum());
 
      println!("EC 03 p1: {}", out1);
