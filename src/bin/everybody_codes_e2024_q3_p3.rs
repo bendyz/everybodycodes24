@@ -4,9 +4,7 @@ mod tools;
 
 fn main() {
     let input: Vec<String> = tools::read_file_to_lines("everybody_codes_e2024_q3_p3.txt");
-    // part1
-    let out1 = "";
-
+    
     let my = input.len();
     let mx = input.get(1).unwrap().len();
 
@@ -31,7 +29,6 @@ fn main() {
     matrix.check();
     println!("{}", matrix.get_sum());
 
-    println!("EC 03 p1: {}", out1);
 }
 
 #[derive(Copy, Clone, Debug)]
